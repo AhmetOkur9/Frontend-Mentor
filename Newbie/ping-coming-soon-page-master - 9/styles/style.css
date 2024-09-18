@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0 4rem 0;
+}
+
+.header-div h2 {
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.header-div h2 span {
+    font-weight: 900;
+}
+
+.header-div h4 {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.header-div div input {
+    height: 3rem;
+    width: 30rem;
+    border-radius: 50px;
+    padding-left: 30px;
+    border: 1px hsl(223, 100%, 88%) solid;
+    margin-right: 10px;
+}
+
+.header-div div button {
+    height: 3rem;
+    width: 10rem;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-div div button:hover{
+    background-color: hsl(223, 78%, 69%);
+    cursor: pointer;
+}
+
+.img-div img {
+    height: 25rem;
+}
+
+.footer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.footer i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid rgb(169, 163, 163);
+}
+
+.footer i:hover{
+    border: none;
+    background-color: #005eff;
+    color: #ffffff !important;
+    cursor: pointer;
+}
+
+.footer-info {
+    opacity: 0.6;
+}

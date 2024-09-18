@@ -1,0 +1,10 @@
+.card{
+    margin: 4% 0;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: inline-block;
+    max-width: 25rem;
+    height: 35rem;
+    text-align: left;
+    background-color: #1F2730;
+}

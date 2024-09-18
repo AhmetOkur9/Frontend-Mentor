@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+}
+
+body{
+    background-color: #070707;
+    
+}
+
+.container{
+    margin-top: 5rem;
+    max-height: 95vh;
+    max-width: 50vh;
+    background-color: #191919;
+    border-radius: .6rem;
+    margin: 1rem auto;
+}
+
+.user-section{
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+.user-section img{
+    width: 30%;
+    height: auto;
+    margin: 2rem 35% 1rem 35%;
+    border-radius: 50%;
+}
+
+.user-section h1{
+    color:  hsl(0, 0%, 90%);
+    margin-bottom: .5rem;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.user-section h3{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 2rem;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.user-section h5{
+    color: hsl(0, 3%, 73%);
+}
+
+.contact-section{
+    margin: 0 5% 0 5%;
+    text-align: center;
+
+}
+
+.contact-section button{
+    display: inline-block;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    background-color: #292929;
+    padding: .8rem 1rem .8rem 1rem;
+    min-width: 90%;
+    margin-bottom: 1rem;
+    border-radius: .4rem;
+    border: none;
+}
+
+.contact-section button:hover{
+    color: #191919;
+    background-color: hsl(75, 94%, 57%);
+}
+

@@ -1,0 +1,54 @@
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.header-div{
+    
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 0 0 !important;
+}
+
+.header-div h2{
+    text-align: center;
+    
+}
+
+.header-div .input-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-div .input-div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-div .input-div input{
+    width: 100%;
+}
+
+.header-div .input-div button{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+
+.img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-div img{
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+}

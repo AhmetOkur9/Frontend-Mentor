@@ -1,0 +1,41 @@
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-height: 21rem,;
+    max-width: 64rem;
+    display: grid;
+    margin-top: 8rem;
+    grid-template-columns: repeat(1, 21rem);
+    grid-template-rows: repeat(5, 7rem);
+    grid-template-areas:
+    
+    "a "
+    "a "
+    "a "
+    "b "
+    "b"
+    "b"
+    "c ";
+}
+
+#user-share-div{
+    margin-left: 20%;
+    background-color: rgb(237, 232, 232);
+    padding: 5px 7px;
+    border-radius: 25px;
+}
+
+
+
+
+.share-div{
+    border-radius: 0 0 20px 20px;
+    top: 670px;
+    height: 5rem;
+    
+}
+
+#info-header {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+

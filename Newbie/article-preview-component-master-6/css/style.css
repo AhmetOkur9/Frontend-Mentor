@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-height: 20rem,;
+    max-width: 64rem;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 7rem);
+    grid-template-areas:
+    "a a b b b"
+    "a a b b b"
+    "a a c c c";
+}
+
+#img-div{
+    background-image: url(../images/drawers.jpg);
+    grid-area: a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 21rem;
+    height: 21rem;
+}
+
+
+
+#info-div{
+    grid-area: b;
+}
+
+#user-div{
+    grid-area: c;
+}
+
+
+
+#info-header h2{
+    opacity: .8;
+    font-size: 24px;
+}
+
+#info-header h3{
+    opacity: .6;
+    font-size: 16px;
+}
+
+#user-div{
+    
+    display: flex;
+    align-items: center;
+}
+
+#user-div img{
+    width: 4rem;
+    border-radius: 50px;
+}
+
+#user-name-div{
+    margin-left: 20px;
+}
+
+#user-name-div h4{
+    font-size: 16px;
+    opacity: .9;
+    margin-bottom: 0;
+}
+
+#user-name-div h5{
+    font-size: 14px;
+    opacity: .5;
+    margin-top: 0;
+}
+
+#user-share-div{
+    margin-left: 50%;
+    background-color: rgb(237, 232, 232);
+    padding: 5px 7px;
+    border-radius: 25px;
+}
+
+#share-button-div{
+    background-color: rgb(237, 232, 232);
+    padding: 5px 7px;
+    border-radius: 25px;
+
+}
+

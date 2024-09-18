@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="(max-width:1240px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:650px)" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/warning-message.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="head-container">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="form-container">
+        <div class="discount-div">
+          <h2> <span>Try it free 7 days</span> then $20/mo. thereafter</h2>
+        </div>
+        <div class="form-div">
+          <form action="#">
+            <div class="input-div">
+              <input class="form-element" type="text" id="fname" placeholder="First Name" />
+              <svg class="error-svg" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            </div>
+            
+            
+            <p class="warning-message">First Name cannot be empty</p>
+            <div class="input-div">
+              <input class="form-element" type="text" id="flastName" placeholder="Last Name" />
+              <svg class="error-svg" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            </div>
+            
+            
+            <p class="warning-message">Last Name cannot be empty</p>
+            <div class="input-div">
+              <input class="form-element" type="text" id="femail" placeholder="Email Address" />
+              <svg class="error-svg" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            </div>
+            
+            
+            <p class="warning-message">Looks like this is not an email</p>           
+            <div class="input-div">
+              <input class="form-element" type="password" id="fpassword" placeholder="Password" />
+              <svg class="error-svg" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+            </div>
+           
+            
+            <p class="warning-message">Password cannot be empty</p>
+            
+            <button class="submit-button">CLAIM TOUR FREE TRIAL</button>
+            
+            <p id="term-service">
+              By clicking the button, you are agreeing to our <span>Terms and Services</span>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+    <script src="main.js"></script>
+  </body>
+</html>

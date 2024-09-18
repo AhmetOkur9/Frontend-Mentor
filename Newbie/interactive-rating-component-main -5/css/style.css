@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Overpass", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    text-align: center;
+    background-color: #131519;
+}
+
+.card{
+    margin: 4% 0;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: inline-block;
+    max-width: 25rem;
+    height: 30rem;
+    text-align: left;
+    background-color: #1F2730;
+}
+
+#icon-div{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 0 0 2rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #252F39;
+}
+
+
+#card-header{
+    margin: 2rem 2rem 0 2rem;
+    color: white;
+}
+
+#card-header h1{
+    font-size: 42px;
+}
+#card-header p{
+    font-size: 19px;
+    opacity: .8;
+    margin-top: 1rem;
+}
+
+#star-div{
+    margin: 2rem 1rem 0 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.star-btn{
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #252F39;
+    color: white;
+}
+
+.star-btn:hover{
+    background-color: #F97713;
+    color: black;
+}
+
+#submit-div{
+    text-align: center;
+    color: black;
+}
+
+.submit-btn{
+    text-align: center;
+    background-color: #F97713;
+    padding: 1rem 35%;
+    border-radius: 25px;
+    margin: 2rem 0 4rem 0;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.submit-btn:hover{
+    background-color: #a34905;
+}
